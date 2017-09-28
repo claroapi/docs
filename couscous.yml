@@ -1,8 +1,8 @@
 template:
     # Name of the directory containing the website template (default is "website")
-#    directory: website
+    directory: website
     # Or if you are using a remote template, you can set the Git URL
-    url: https://github.com/CouscousPHP/Template-Light.git
+#    url: https://github.com/CouscousPHP/Template-Light.git
     # Name of the index file (default is "README.md")
     index: index.md
 
@@ -54,7 +54,7 @@ menu:
             relativeUrl: index.html
         people:
             text: People
-            relativeUrl: people/readme.html
+            relativeUrl: people.html
         news:
             text: News
-            relativeUrl: news/readme.html
+            relativeUrl: news.html
