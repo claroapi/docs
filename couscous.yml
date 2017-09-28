@@ -30,7 +30,7 @@ scripts:
 
 # Set this variable to use a Custom Domain
 # The content of this variable will be directly inserted into the CNAME file
-cname: apidocs.claromentis.com
+#cname: apidocs.claromentis.com
 
 # Set the target branch in which to deploy the generated website
 branch: gh-pages
@@ -40,7 +40,7 @@ title: Claromentis API Docs
 
 # Base URL of the published website (no "/" at the end!)
 # You are advised to set and use this variable to write your links in the HTML layouts
-baseUrl: http://username.github.io/your-project
+#baseUrl: http://username.github.io/your-project
 
 
 
@@ -51,25 +51,10 @@ menu:
     items:
         getting-started:
             text: Get started
-            relativeUrl: docs/getting-started.html
-        documentation:
+            relativeUrl: index.html
+        people:
             text: People
             relativeUrl: people/readme.html
-        configuration:
+        news:
             text: News
             relativeUrl: news/readme.html
-        templates:
-            text: Templates
-            relativeUrl: docs/templates.html
-        metadata:
-            text: Metadata
-            relativeUrl: docs/metadata.html
-        travis:
-            text: Travis integration
-            relativeUrl: docs/travis.html
-        faq:
-            text: FAQ
-            relativeUrl: docs/faq.html
-        contributing:
-            text: Contributing
-            relativeUrl: contributing.html
