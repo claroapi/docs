@@ -40,9 +40,20 @@ title: Claromentis API Docs
 
 # Base URL of the published website (no "/" at the end!)
 # You are advised to set and use this variable to write your links in the HTML layouts
-#baseUrl: http://username.github.io/your-project
+baseUrl: https://claroapi.github.io/docs/
+
+#for v in 4.1 4.2 4.3
+#  do
+#    # Checkout a versioned branch with the version name
+#    git checkout $v
+#    # Create a configuration file that sets a new baseurl based on version
+#    echo "baseurl : /$v" > _config.$v.yml
+#    # Build using both the basic configuration file and the version config file
+#    bundle exec jekyll build --config _config.yml,_config.$v.yml -d _site/$v/
+#  done
 
 
+versionDropdown:
 
 # Template Modifications
 subTitle: Digital Workplace
