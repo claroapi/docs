@@ -1,2 +1,0 @@
-# apidocs
-Claromentis API Docs
