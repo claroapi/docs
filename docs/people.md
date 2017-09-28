@@ -1,2 +1,2 @@
-# Claromentis PEOPLE API Docs
+# Claromentis PEOPLE API Docs  (for Version 8.2)
 This is the documentation page for people
